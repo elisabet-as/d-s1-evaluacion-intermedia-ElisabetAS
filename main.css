@@ -47,11 +47,31 @@ body {
   align-items: center;
 }
 
-.tittle {
+.title {
   font-family: "Rubik", sans-serif;
   font-size: 30px;
   color: #ffffff;
   text-align: center;
   height: 200px;
   width: 200px;
+}
+
+@media all and (min-width: 768px) {
+  .cabecera {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .menu {
+    margin: 0px 30px 0px 0px;
+  }
+  .title {
+    font-size: 40px;
+  }
 }
